@@ -1,0 +1,27 @@
+{
+  "name": "admin3-prime",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "commit": "git add . && czg",
+    "taze": "taze -Iwr",
+    "release": "bumpp README.md package.json"
+  },
+  "dependencies": {
+    "nuxt": "^3.7.4",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "bumpp": "^9.2.0",
+    "czg": "^1.7.1",
+    "taze": "^0.11.3"
+  }
+}
